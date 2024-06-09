@@ -4,6 +4,7 @@ const frequency = (nums1, nums2) => {
         if(currentIndex === -1){
             return false
         }
+        nums2.splice(currentIndex,1)
     }
     return true;
 }
